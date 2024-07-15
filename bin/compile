@@ -511,5 +511,6 @@ else
 fi
 warn_old_npm_lockfile $NPM_LOCK
 
+echo "$BUILD_DIR"
 meta_set "build-step" "finished"
 log_meta_data >> "$BUILDPACK_LOG_FILE"
